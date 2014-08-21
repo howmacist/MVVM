@@ -7,13 +7,16 @@
 //
 
 #import "AppDelegate.h"
-
+#import "YFViewController.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    YFViewController *_vc = [[YFViewController alloc]init];
+    UINavigationController *_nc = [[UINavigationController alloc]initWithRootViewController:_vc];
+    self.window.rootViewController = _nc;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

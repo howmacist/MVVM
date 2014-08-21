@@ -19,6 +19,11 @@
 		67AE447C19A476B300E5E77F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AE446419A476B300E5E77F /* UIKit.framework */; };
 		67AE448419A476B300E5E77F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67AE448219A476B300E5E77F /* InfoPlist.strings */; };
 		67AE448619A476B300E5E77F /* MVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AE448519A476B300E5E77F /* MVVMTests.m */; };
+		67AE449119A476D900E5E77F /* YFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AE449019A476D900E5E77F /* YFViewController.m */; };
+		67AE449419A476F300E5E77F /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AE449319A476F300E5E77F /* Model.m */; };
+		67AE449719A4776C00E5E77F /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AE449619A4776C00E5E77F /* ViewModel.m */; };
+		67AE44D819A5C62800E5E77F /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AE44D719A5C62800E5E77F /* TwoViewController.m */; };
+		67AE44DB19A5C65500E5E77F /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AE44DA19A5C65500E5E77F /* OneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,16 @@
 		67AE448119A476B300E5E77F /* MVVMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVVMTests-Info.plist"; sourceTree = "<group>"; };
 		67AE448319A476B300E5E77F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		67AE448519A476B300E5E77F /* MVVMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMTests.m; sourceTree = "<group>"; };
+		67AE448F19A476D900E5E77F /* YFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFViewController.h; sourceTree = "<group>"; };
+		67AE449019A476D900E5E77F /* YFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFViewController.m; sourceTree = "<group>"; };
+		67AE449219A476F300E5E77F /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		67AE449319A476F300E5E77F /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		67AE449519A4776C00E5E77F /* ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		67AE449619A4776C00E5E77F /* ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		67AE44D619A5C62800E5E77F /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		67AE44D719A5C62800E5E77F /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		67AE44D919A5C65500E5E77F /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		67AE44DA19A5C65500E5E77F /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +124,16 @@
 			children = (
 				67AE446F19A476B300E5E77F /* AppDelegate.h */,
 				67AE447019A476B300E5E77F /* AppDelegate.m */,
+				67AE449219A476F300E5E77F /* Model.h */,
+				67AE449319A476F300E5E77F /* Model.m */,
+				67AE449519A4776C00E5E77F /* ViewModel.h */,
+				67AE449619A4776C00E5E77F /* ViewModel.m */,
+				67AE448F19A476D900E5E77F /* YFViewController.h */,
+				67AE449019A476D900E5E77F /* YFViewController.m */,
+				67AE44D919A5C65500E5E77F /* OneViewController.h */,
+				67AE44DA19A5C65500E5E77F /* OneViewController.m */,
+				67AE44D619A5C62800E5E77F /* TwoViewController.h */,
+				67AE44D719A5C62800E5E77F /* TwoViewController.m */,
 				67AE447219A476B300E5E77F /* Images.xcassets */,
 				67AE446719A476B300E5E77F /* Supporting Files */,
 			);
@@ -240,7 +265,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				67AE447119A476B300E5E77F /* AppDelegate.m in Sources */,
+				67AE449119A476D900E5E77F /* YFViewController.m in Sources */,
+				67AE449719A4776C00E5E77F /* ViewModel.m in Sources */,
+				67AE44D819A5C62800E5E77F /* TwoViewController.m in Sources */,
 				67AE446D19A476B300E5E77F /* main.m in Sources */,
+				67AE44DB19A5C65500E5E77F /* OneViewController.m in Sources */,
+				67AE449419A476F300E5E77F /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
